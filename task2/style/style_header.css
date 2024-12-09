@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    background: rgb(172, 192, 207);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.header_main{
+    display: flex;
+    margin: 24px;
+    height: 72px;
+}
+.left_header{
+    background: #FAFAFA;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-radius: 8px;
+}
+.rigth_header{
+    background: #FAFAFA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 72px;
+    margin-left: 24px;
+    border-radius: 8px;
+
+}
+.logo_header{
+    margin-left: 40px;
+}
+.links{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-right: 40px;
+}
+.shop,.faq{
+    margin-right: 40px;
+}
+.border{
+    background: #E2E2E2;
+    width: 1px;
+    height: 1.4em;
+    margin-right: 41px;
+}
