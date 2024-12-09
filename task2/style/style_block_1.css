@@ -1,0 +1,31 @@
+.hand_with_c20{
+    margin-left: 800px;
+    position: absolute;
+}
+.bttm_with_text{
+    margin: 153px 0 0 96px;
+    width: auto;
+}
+.first_p{
+    font-weight: 700;
+    font-size: 71px;
+    font-family: "Roboto";
+    margin-bottom: 33px;
+}
+.bttm_with_text button{
+    font-weight: 400;
+    font-size: 15px;
+    font-family: "Roboto";
+    padding: 4px 61px 4px 61px;
+    border-radius: 8px;
+    border: none;
+    background: #FF451C;
+    color: white;
+    margin-top: 35px;
+}
+.last_p{
+    font-weight: 400;
+    font-size: 23px;
+    font-family: "Roboto";
+    margin-bottom: 0;
+}
