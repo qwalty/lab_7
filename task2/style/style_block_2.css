@@ -1,13 +1,14 @@
 .backwithc20{
-    width: 44%;
+    width: 50%;
 }
 .block_2{
     display: flex;
+    width: 100%;
 }
 .text_and_bttm{
     background: white;
-    height: 25%;
-    width: 56%;
+    height: 50%;
+    width: 50%;
 }
 .p_and_bttm{
     font-size: 37px;
@@ -16,7 +17,7 @@
     margin-left: 48px;
 }
 .p_and_bttm_last{
-    font-size: 17px;
+    font-size: 15px;
     font-family: 'Roboto';
     font-weight: 400;
     margin-left: 48px;
@@ -31,4 +32,8 @@
     border: none;
     background: #FF451C;
     color: white;
+    margin-bottom: 110px;
+}
+.text_and_bttm img{
+    width: 100%;
 }
