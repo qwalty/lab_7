@@ -1,9 +1,5 @@
-.hand_with_c20{
-    margin-left: 800px;
-    position: absolute;
-}
 .bttm_with_text{
-    margin: 153px 0 0 96px;
+    margin: 50px 0 0 96px;
     width: auto;
 }
 .first_p{
@@ -28,4 +24,7 @@
     font-size: 23px;
     font-family: "Roboto";
     margin-bottom: 0;
+}
+.block_1{
+    display: flex;
 }
