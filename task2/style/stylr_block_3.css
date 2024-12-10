@@ -1,0 +1,51 @@
+.block_3{
+    display: flex;
+}
+.qna_text_bttm{
+    width: 50%;
+
+}
+.first_p_qna{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    margin-left: 48px;
+}
+.last_p_qna{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 48px;
+    margin-bottom: 44px;
+}
+.qna_text_bttm button{
+    margin-left: 48px;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: "Roboto";
+    padding: 4px 61px 4px 61px;
+    border-radius: 8px;
+    border: none;
+    background: #FF451C;
+    color: white;
+    margin-bottom: 110px;
+}
+.qna_answers{
+    width: 50%;
+}
+.qna_answers p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 21px;
+    margin: 24px;
+}
+.qna_border{
+    border: 1px rgba(0, 0, 0, 20%) solid;
+    margin: 24px;
+}
+.qna_p_first{
+    margin-top: 72px;
+}
+.qna_p_second{
+    
+}
