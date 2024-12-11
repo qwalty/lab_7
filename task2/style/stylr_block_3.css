@@ -32,6 +32,7 @@
 }
 .qna_answers{
     width: 50%;
+    margin-top: 72px;
 }
 .qna_answers p{
     font-family: 'Roboto';
@@ -43,9 +44,17 @@
     border: 1px rgba(0, 0, 0, 20%) solid;
     margin: 24px;
 }
-.qna_p_first{
-    margin-top: 72px;
+.qna_p_first::after,
+.qna_p_second::after,
+.qna_p_last::after{
+    content: "+";
 }
-.qna_p_second{
-    
+.qna_p_first::after{
+    margin-left: 230px;
+}
+.qna_p_second::after{
+    margin-left: 289px;
+}
+.qna_p_last::after{
+    margin-left: 270px;
 }
