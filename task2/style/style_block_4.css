@@ -1,0 +1,22 @@
+.block_4{
+    display: flex;
+    background: white;
+    flex-direction: column;
+    align-items: center;
+}
+.first_p_recomendation{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 90px;
+}
+.last_p_recomendation{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 0;
+    text-align: center;
+}
+.stars{
+    margin-bottom: 40px;
+}
