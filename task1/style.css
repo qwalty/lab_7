@@ -1,31 +1,76 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
+  font-family: Arial, sans-serif;
+  background-color: #BF7330;
 }
 
 header {
-    background-color: #FFB573;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    padding: 0 20px;
-    justify-content: space-between;
+  background-color: #ffb573;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  justify-content: space-between;
 }
 
-header .circle {
-    width: 20px;
-    height: 20px;
-    background-color: white;
-    border-radius: 50%;
+.logo img {
+  width: 60px;
+  height: 60px;
 }
 
 .menu {
-    display: flex;
-    gap: 10px;
+  display: flex;
+  gap: 20px;
+}
+
+.container {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  margin-bottom: 50px;
+  gap: 10px;
+}
+
+.content img {
+  width: 250px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content .text {
+  background: #ffd273;
+  flex: 1;
+}
+.text ul{
+    margin: 20px;
+
+}
+.box {
+  display: flex;
+  width: 100%;
+  height: 20.9%;
+  background-color: #c6e7f8;
+  margin-bottom: 30px;
+
+}
+.video_resept p{
+    padding: 10px;
+    background: #FFD273;
+    text-align: start;
+}
+
+@media (max-width: 860px) {
+  .container {
+    display: block;
+  }
 }
