@@ -1,0 +1,35 @@
+footer{
+    display: flex;
+    background: #9BB8D3;
+}
+ul{
+    list-style: none;
+    padding-left: 24px;
+}
+li{
+    margin: 16px;
+}
+li a{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 13px;
+}
+.title_li{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 13px; 
+    color: rgba(0, 0, 0, 50%);
+}
+.discription{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 8px;
+    margin-top: 0;
+}
+.li_email{
+    margin-bottom: 5px;
+}
+.email_in_footer{
+    width: 135%;
+    height: 35px;
+}
